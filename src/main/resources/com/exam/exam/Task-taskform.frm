@@ -1,0 +1,1 @@
+{"id":"49131377-5d82-4989-a2f5-2d5a7b45c5d3","name":"Task-taskform.frm","model":{"taskName":"Task","processId":"Exam.Exam","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
