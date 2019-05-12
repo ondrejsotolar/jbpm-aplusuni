@@ -6,12 +6,35 @@ package com.exam.exam;
 
 public class object implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public object() {
-    }
+	@org.kie.api.definition.type.Label(value = "ExamCapacity")
+	private java.lang.Integer capacity;
+	@org.kie.api.definition.type.Label(value = "RequiredPoints")
+	private java.lang.Integer points_teacher;
 
+	public object() {
+	}
 
+	public java.lang.Integer getCapacity() {
+		return this.capacity;
+	}
 
+	public void setCapacity(java.lang.Integer capacity) {
+		this.capacity = capacity;
+	}
+
+	public java.lang.Integer getPoints_teacher() {
+		return this.points_teacher;
+	}
+
+	public void setPoints_teacher(java.lang.Integer points_teacher) {
+		this.points_teacher = points_teacher;
+	}
+
+	public object(java.lang.Integer capacity, java.lang.Integer points_teacher) {
+		this.capacity = capacity;
+		this.points_teacher = points_teacher;
+	}
 
 }
