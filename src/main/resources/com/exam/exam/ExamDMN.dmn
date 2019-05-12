@@ -8,8 +8,8 @@
     </dmn:informationRequirement>&#xd;
     <dmn:literalExpression/>&#xd;
   </dmn:decision>&#xd;
-  <dmn:inputData id="_A16918D2-260A-4DC2-A8D0-990505BE38C0" name="Capacity">&#xd;
-    <dmn:variable id="_D9C07FEE-916C-484C-B51C-CFF7AA913F83" name="Capacity"/>&#xd;
+  <dmn:inputData id="_A16918D2-260A-4DC2-A8D0-990505BE38C0" name="Capacity, points">&#xd;
+    <dmn:variable id="_D9C07FEE-916C-484C-B51C-CFF7AA913F83" name="Capacity, points"/>&#xd;
   </dmn:inputData>&#xd;
   <dmndi:DMNDI>&#xd;
     <dmndi:DMNDiagram>&#xd;
