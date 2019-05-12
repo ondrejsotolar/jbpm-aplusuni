@@ -1,0 +1,1 @@
+{"id":"b1512720-5837-466c-863c-44ad30a3f02f","name":"ExamCapacity","model":{"processName":"Exam","processId":"Exam.Exam","name":"process","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.process.BusinessProcessFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
