@@ -6,12 +6,24 @@ package com.exam.exam;
 
 public class Student implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Student() {
-    }
+	@org.kie.api.definition.type.Label(value = "GainedPoints")
+	private java.lang.Integer points;
 
+	public Student() {
+	}
 
+	public java.lang.Integer getPoints() {
+		return this.points;
+	}
 
+	public void setPoints(java.lang.Integer points) {
+		this.points = points;
+	}
+
+	public Student(java.lang.Integer points) {
+		this.points = points;
+	}
 
 }
