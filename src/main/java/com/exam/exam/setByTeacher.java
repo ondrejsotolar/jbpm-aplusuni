@@ -10,9 +10,6 @@ public class setByTeacher implements java.io.Serializable {
 
 	@org.kie.api.definition.type.Label("ExamCapacity")
 	private java.lang.Integer capacity;
-	@org.kie.api.definition.type.Label("RequiredPoints")
-	private java.lang.Integer points_teacher;
-
 	public setByTeacher() {
 	}
 
@@ -24,18 +21,8 @@ public class setByTeacher implements java.io.Serializable {
 		this.capacity = capacity;
 	}
 
-	public java.lang.Integer getPoints_teacher() {
-		return this.points_teacher;
-	}
-
-	public void setPoints_teacher(java.lang.Integer points_teacher) {
-		this.points_teacher = points_teacher;
-	}
-
-	public setByTeacher(java.lang.Integer capacity,
-			java.lang.Integer points_teacher) {
+	public setByTeacher(java.lang.Integer capacity) {
 		this.capacity = capacity;
-		this.points_teacher = points_teacher;
 	}
 
 }
