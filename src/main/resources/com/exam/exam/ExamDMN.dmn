@@ -5,7 +5,7 @@
     <dmn:variable id="_D77EAA32-2360-48DC-AD7B-4A6A140F924D" name="GainedPoints"/>&#xd;
   </dmn:inputData>&#xd;
   <dmn:decision id="_A817FA5F-E949-48DA-9E69-3E241F08A57A" name="RequirementsMet?">&#xd;
-    <dmn:variable id="_BE0AA11A-7327-4761-90A9-EE84AC52CF83" name="RequirementsMet?"/>&#xd;
+    <dmn:variable id="_BE0AA11A-7327-4761-90A9-EE84AC52CF83" name="RequirementsMet?" typeRef="boolean"/>&#xd;
     <dmn:informationRequirement id="_B5090F2F-EBB9-4472-AA97-137BE75D3184">&#xd;
       <dmn:requiredInput href="#_A16918D2-260A-4DC2-A8D0-990505BE38C0"/>&#xd;
     </dmn:informationRequirement>&#xd;
@@ -14,16 +14,16 @@
     </dmn:informationRequirement>&#xd;
     <dmn:decisionTable id="_38F6E23D-80EE-4244-8D21-226F0F81CA09" hitPolicy="ANY" preferredOrientation="Rule-as-Row">&#xd;
       <dmn:input id="_9BA90B06-1511-4CDA-A3D2-1D4F1C812DA8">&#xd;
-        <dmn:inputExpression id="_D4ACF80E-4ADC-468D-8E94-4B045D16FE96">&#xd;
+        <dmn:inputExpression id="_D4ACF80E-4ADC-468D-8E94-4B045D16FE96" typeRef="number">&#xd;
           <dmn:text>Capacity</dmn:text>&#xd;
         </dmn:inputExpression>&#xd;
       </dmn:input>&#xd;
       <dmn:input id="_13F2D2B8-EEB3-4ED7-855C-14B54C746ED3">&#xd;
-        <dmn:inputExpression id="_249CF77B-CD65-486B-80E1-A742D56539AC">&#xd;
+        <dmn:inputExpression id="_249CF77B-CD65-486B-80E1-A742D56539AC" typeRef="number">&#xd;
           <dmn:text>GainedPoints</dmn:text>&#xd;
         </dmn:inputExpression>&#xd;
       </dmn:input>&#xd;
-      <dmn:output id="_B21E2386-EAD0-49F5-BCFA-F3238DCB1A86"/>&#xd;
+      <dmn:output id="_B21E2386-EAD0-49F5-BCFA-F3238DCB1A86" typeRef="boolean"/>&#xd;
       <dmn:rule id="_9FC42756-5B69-4DD9-B61F-D60387B2A570">&#xd;
         <dmn:inputEntry id="_F1AA6842-3BC8-47E6-8E3D-B912B102D25A">&#xd;
           <dmn:text>&gt; 0</dmn:text>&#xd;
