@@ -1,6 +1,6 @@
 [
   [
-    "name" : "MyTask", 
+    "name" : "TestMessage", 
     "parameters" : [ 
         "MyFirstParam" : new StringDataType(), 
         "MySecondParam" : new StringDataType(), 
