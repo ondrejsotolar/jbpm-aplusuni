@@ -12,7 +12,7 @@
     <dmn:informationRequirement id="_4673577A-EAD1-40A2-B52A-2B0D58073735">&#xd;
       <dmn:requiredInput href="#_4F98761C-A0BA-4DB4-8708-98572D5805A1"/>&#xd;
     </dmn:informationRequirement>&#xd;
-    <dmn:decisionTable id="_38F6E23D-80EE-4244-8D21-226F0F81CA09" hitPolicy="ANY" preferredOrientation="Rule-as-Row">&#xd;
+    <dmn:decisionTable id="_38F6E23D-80EE-4244-8D21-226F0F81CA09" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">&#xd;
       <dmn:input id="_9BA90B06-1511-4CDA-A3D2-1D4F1C812DA8">&#xd;
         <dmn:inputExpression id="_D4ACF80E-4ADC-468D-8E94-4B045D16FE96" typeRef="number">&#xd;
           <dmn:text>Capacity</dmn:text>&#xd;
@@ -59,10 +59,10 @@
       </dmn:rule>&#xd;
       <dmn:rule id="_985BF1A2-E9EB-4C20-8681-7AD17A4A6D27">&#xd;
         <dmn:inputEntry id="_4C087DC3-BBB8-4FB4-ABC1-A6F071D0FEB8">&#xd;
-          <dmn:text></dmn:text>&#xd;
+          <dmn:text>null</dmn:text>&#xd;
         </dmn:inputEntry>&#xd;
         <dmn:inputEntry id="_74603E42-CB00-44C8-89CE-1077CBE775A9">&#xd;
-          <dmn:text></dmn:text>&#xd;
+          <dmn:text>null</dmn:text>&#xd;
         </dmn:inputEntry>&#xd;
         <dmn:outputEntry id="_0E499C3B-D032-4039-81A3-8D9B9BA6D92B">&#xd;
           <dmn:text>false</dmn:text>&#xd;
