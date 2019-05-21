@@ -6,12 +6,23 @@ package com.exam.exam;
 
 public class AppealAge_response implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public AppealAge_response() {
-    }
+	private java.lang.Boolean isoldenough;
 
+	public AppealAge_response() {
+	}
 
+	public java.lang.Boolean getIsoldenough() {
+		return this.isoldenough;
+	}
 
+	public void setIsoldenough(java.lang.Boolean isoldenough) {
+		this.isoldenough = isoldenough;
+	}
+
+	public AppealAge_response(java.lang.Boolean isoldenough) {
+		this.isoldenough = isoldenough;
+	}
 
 }
