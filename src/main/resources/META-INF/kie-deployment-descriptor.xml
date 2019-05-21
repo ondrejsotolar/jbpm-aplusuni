@@ -14,7 +14,7 @@
             <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler("", "", AppealAge_response)</identifier>
             <parameters/>
-            <name>Rest</name>
+            <name>AppealAgeRest</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
