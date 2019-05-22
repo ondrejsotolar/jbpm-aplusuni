@@ -25,5 +25,4 @@ public class AppealAge_response implements java.io.Serializable {
 	public AppealAge_response(java.lang.Boolean isoldenough) {
 		this.isoldenough = isoldenough;
 	}
-
 }
