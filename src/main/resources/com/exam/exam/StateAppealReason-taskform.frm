@@ -1,0 +1,1 @@
+{"id":"8ea04c11-efea-4bd8-aff2-ff0c89432b95","name":"StateAppealReason-taskform","model":{"taskName":"StateAppealReason","processId":"APlus_Uni.RequestAppeal","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
