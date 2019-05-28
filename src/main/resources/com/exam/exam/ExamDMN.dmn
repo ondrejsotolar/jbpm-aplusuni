@@ -4,8 +4,8 @@
   <dmn:inputData id="_4F98761C-A0BA-4DB4-8708-98572D5805A1" name="gainedPoints_in">&#xd;
     <dmn:variable id="_D77EAA32-2360-48DC-AD7B-4A6A140F924D" name="gainedPoints_in" typeRef="number"/>&#xd;
   </dmn:inputData>&#xd;
-  <dmn:decision id="_A817FA5F-E949-48DA-9E69-3E241F08A57A" name="RequirementsMet?">&#xd;
-    <dmn:variable id="_BE0AA11A-7327-4761-90A9-EE84AC52CF83" name="RequirementsMet?" typeRef="boolean"/>&#xd;
+  <dmn:decision id="_A817FA5F-E949-48DA-9E69-3E241F08A57A" name="RequirementsMet">&#xd;
+    <dmn:variable id="_BE0AA11A-7327-4761-90A9-EE84AC52CF83" name="RequirementsMet" typeRef="boolean"/>&#xd;
     <dmn:informationRequirement id="_B5090F2F-EBB9-4472-AA97-137BE75D3184">&#xd;
       <dmn:requiredInput href="#_A16918D2-260A-4DC2-A8D0-990505BE38C0"/>&#xd;
     </dmn:informationRequirement>&#xd;
