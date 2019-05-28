@@ -426,7 +426,7 @@ System.out.println(dmn_capacity);]]></drools:script>
       <bpmn2:dataInputAssociation id="_d2iE_YGGEemNC4dkTi4YNw">
         <bpmn2:targetRef>_F20FD6CA-8D5E-4F10-92E8-71B4950D6E8E_decisionInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_d2iE_oGGEemNC4dkTi4YNw">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_d2iE_4GGEemNC4dkTi4YNw"><![CDATA[RequirementsMet?]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_d2iE_4GGEemNC4dkTi4YNw"><![CDATA[RequirementsMet]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_d2iFAIGGEemNC4dkTi4YNw">_F20FD6CA-8D5E-4F10-92E8-71B4950D6E8E_decisionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
