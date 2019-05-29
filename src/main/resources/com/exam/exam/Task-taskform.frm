@@ -1,0 +1,1 @@
+{"id":"8e587021-4814-4fef-8ccc-0e7f02e1e629","name":"Task-taskform","model":{"taskName":"Task","processId":"APlus_Uni.AcceptExternalCourse","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
